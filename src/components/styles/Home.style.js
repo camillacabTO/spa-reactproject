@@ -32,10 +32,7 @@ export const HomeStyle = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-    h1 {
-      margin: 60px 0;
-    }
+    padding: 60px 0;
 
     div > button {
       margin: 0 30px;

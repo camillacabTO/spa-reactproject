@@ -8,15 +8,14 @@ const Home = () => {
   return (
     <HomeStyle>
       <div>
-        <h1>WELCOME TO RAGDALE HALL SPA</h1>
+        <h1>WELCOME TO SPADESY</h1>
         <p>
-          We are all a bit obsessed with time. Seconds, minutes, hours, days,
-          gone before we can even count them. The present can never really be
-          measured, but it can be valued. A moment doesn’t always need to be
-          fleeting. We know the best moments become memories, and these last
-          forever. For more than 30 years we’ve been dedicated to turning your
-          time into You Time. Because we believe that time is the most precious
-          gift that we can give you.
+          Magna cupidatat enim id consectetur. Qui do deserunt duis esse cillum
+          anim mollit amet magna do voluptate magna in. Officia cupidatat nulla
+          deserunt labore tempor voluptate. Irure ipsum aute labore id nulla et
+          quis aliquip velit aliquip. Officia proident nostrud nisi officia
+          cupidatat cupidatat ex fugiat mollit dolore aliqua nulla deserunt ut.
+          Est Lorem culpa ullamco irure
         </p>
         <div>
           <Button

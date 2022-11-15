@@ -40,6 +40,7 @@ export const products = [
     description:
       'Luxurious 8pc Gift Baskets for Women, Cute Bath Tub Holder - Best Holiday Gift Set for Women Includes Shower Gel, Bubble Bath and Body Butter',
     price: 65,
+    bgColor: '#D9D7F1',
   },
   {
     id: 2,
@@ -47,6 +48,7 @@ export const products = [
     description:
       'This package gives you everything you need to treat yourself to daily spa quality facial care, from the convenience of your own home',
     price: 90,
+    bgColor: '#FFFDDE',
   },
   {
     id: 3,
@@ -54,6 +56,7 @@ export const products = [
     description:
       'This traditional Moroccan beauty accessory is a must-have to remove calluses on feet and elbows without scraping or irritation',
     price: 60,
+    bgColor: '#E7FBBE',
   },
   {
     id: 4,
@@ -61,5 +64,6 @@ export const products = [
     description:
       'Body Care Assortment is an exotic combination of essential skincare products specially designed to soothe your skin',
     price: 115,
+    bgColor: '#FFCBCB',
   },
 ];

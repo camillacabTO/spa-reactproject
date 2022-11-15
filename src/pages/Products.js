@@ -10,8 +10,9 @@ const Products = () => {
     setSubTotal((prevSubTotal) => prevSubTotal + price);
   }
 
-  const ProductStyle = styled.div`
+  const ProductsStyle = styled.div`
     padding: 40px 50px;
+    margin: 0 auto;
     h3 {
       text-align: center;
       font-style: oblique;
@@ -21,9 +22,11 @@ const Products = () => {
 
     & > div {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 35px;
-      margin-bottom: 50px;
+      grid-template-columns: repeat(2, auto);
+      justify-content: space-around;
+      gap: 50px;
+      margin: 50px auto;
+      width: 70%;
     }
 
     & > span,
@@ -35,7 +38,7 @@ const Products = () => {
   `;
 
   return (
-    <ProductStyle>
+    <ProductsStyle>
       <h3>Treat yourself to some self-care essentials</h3>
       <div>
         {products.map((product) => (
@@ -48,10 +51,10 @@ const Products = () => {
       </div>
       <small>Click on the products to add to your cart...</small>
       <br />
-      <span>SubTotal: ${subTotal}</span>
+      <span>SubTotal: ${subTotal.toFixed(2)}</span>
       <br />
       <span>Total: ${(subTotal * 1.13).toFixed(2)}</span>
-    </ProductStyle>
+    </ProductsStyle>
   );
 };
 

@@ -22,5 +22,5 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.img`
-  width: 150px;
+  width: 180px;
 `;
