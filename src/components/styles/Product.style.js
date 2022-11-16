@@ -13,7 +13,7 @@ export const ProductStyle = styled.div`
   &:hover {
     transform: scale(0.95);
     opacity: 0.9;
-
+    cursor: pointer;
     transition: all 450ms;
   }
 

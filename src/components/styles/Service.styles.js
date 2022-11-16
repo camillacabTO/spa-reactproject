@@ -9,17 +9,11 @@ export const ServiceStyle = styled.div`
   height: 35vh;
   width: 80vw;
   border-radius: 5px;
-
   flex-direction: ${({ flexDirection }) => flexDirection || 'row'};
-
-  ${
-    '' /* img {
-    object-fit: contain;
-  } */
-  }
 
   & > div:first-of-type {
     padding: 25px 0px 0px 50px;
+    cursor: pointer;
 
     &:hover {
       transform: scale(0.95);

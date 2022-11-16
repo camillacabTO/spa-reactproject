@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContactStyle = styled.form`
+export const BookAppointmentStyle = styled.form`
   max-width: 40vw;
   margin: 50px auto;
   padding: 30px;

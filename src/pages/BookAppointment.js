@@ -1,14 +1,16 @@
 import { useState } from 'react';
 import { Button } from '../components/styles/Button.js';
-import { ContactStyle } from '../components/styles/ContactPage.style.js';
+import { BookAppointmentStyle } from '../components/styles/BookAppointmentPage.style.js';
 import { services } from '../content.js';
 
-const Contact = () => {
+const BookAppointment = () => {
+  // 4 states were created for the controlled form. The 'value' property of all fields are controlled by the state and are updated as the user type
   const [name, setName] = useState('');
   const [service, setService] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
 
+  // When the form is submitted a new object is created and logged in the console. Form fields is also cleared
   const handleSubmit = (e) => {
     e.preventDefault();
     const contactInfo = {
@@ -19,6 +21,7 @@ const Contact = () => {
     };
     console.log(contactInfo);
     setName('');
+    //first service in list is the default for this select input
     setService(services[0].title);
     setPhoneNumber('');
     setMessage('');
@@ -26,7 +29,7 @@ const Contact = () => {
 
   return (
     <>
-      <ContactStyle onSubmit={handleSubmit}>
+      <BookAppointmentStyle onSubmit={handleSubmit}>
         <p>Schedule your appointment at Spadesy today! </p>
         <label>
           <span>Name:</span>
@@ -63,9 +66,9 @@ const Contact = () => {
           />
         </label>
         <Button>Submit</Button>
-      </ContactStyle>
+      </BookAppointmentStyle>
     </>
   );
 };
 
-export default Contact;
+export default BookAppointment;

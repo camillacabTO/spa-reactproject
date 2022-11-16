@@ -10,14 +10,16 @@ const Home = () => {
       <div>
         <h1>WELCOME TO SPADESY</h1>
         <p>
-          Magna cupidatat enim id consectetur. Qui do deserunt duis esse cillum
-          anim mollit amet magna do voluptate magna in. Officia cupidatat nulla
-          deserunt labore tempor voluptate. Irure ipsum aute labore id nulla et
-          quis aliquip velit aliquip. Officia proident nostrud nisi officia
-          cupidatat cupidatat ex fugiat mollit dolore aliqua nulla deserunt ut.
-          Est Lorem culpa ullamco irure
+          Our luxury spa turns from a European-feel escape in the summer, to an
+          indulgent thermal heaven in the winter. Experience a range of pools
+          and jacuzzis both indoors and outdoors, an extensive range of thermal
+          cabins of differing temperatures, humidities and aromas, along with
+          experience showers, relaxations rooms and our incredible spa
+          treatments. Tailor your journey to achieve your desired results, be it
+          to unwind and de-stress or invigorate and rejuvenate.
         </p>
         <div>
+          {/* When user clicks the button she/he is redirected to another page in the application */}
           <Button
             onClick={() => {
               navigate('/services');

@@ -6,6 +6,13 @@ export const ServicesStyle = styled.div`
   align-items: center;
   padding: 40px 50px;
 
+  h3 {
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+
   & > div {
     flex: 1;
   }

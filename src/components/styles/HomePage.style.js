@@ -3,6 +3,9 @@ import background from '../../assets/main2.jpg';
 
 export const HomeStyle = styled.div`
   background-image: url(${background});
+   {
+    /* All images are loyalty free. Downloaded from unsplash.com */
+  }
   background-position: center;
   background-size: cover;
   height: 100vh;

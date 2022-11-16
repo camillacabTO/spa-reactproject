@@ -7,21 +7,21 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Services from './pages/Services';
-import Contact from './pages/Contact';
+import BookAppointment from './pages/BookAppointment';
 
 function App() {
   return (
     <Router>
       <GlobalStyles />
       <Header />
-      {/* <Container> */}
-      <Routes>
-        <Route exact path='/services' element={<Services />} />
-        <Route exact path='/products' element={<Products />} />
-        <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/' element={<Home />} />
-      </Routes>
-      {/* </Container> */}
+      <Container>
+        <Routes>
+          <Route exact path='/services' element={<Services />} />
+          <Route exact path='/products' element={<Products />} />
+          <Route exact path='/contact' element={<BookAppointment />} />
+          <Route exact path='/' element={<Home />} />
+        </Routes>
+      </Container>
       <Footer />
     </Router>
   );
