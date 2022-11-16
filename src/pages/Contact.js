@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button } from '../components/styles/Button.js';
-import { ContactStyle } from '../components/styles/Contact.style.js';
+import { ContactStyle } from '../components/styles/ContactPage.style.js';
 import { services } from '../content.js';
 
 const Contact = () => {

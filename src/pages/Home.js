@@ -1,5 +1,5 @@
 import { Button } from '../components/styles/Button';
-import { HomeStyle } from '../components/styles/Home.style';
+import { HomeStyle } from '../components/styles/HomePage.style';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
