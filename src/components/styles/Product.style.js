@@ -4,7 +4,7 @@ export const ProductStyle = styled.div`
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   padding: 30px;
-  height: 30vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

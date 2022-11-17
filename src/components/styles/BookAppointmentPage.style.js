@@ -19,7 +19,8 @@ export const BookAppointmentStyle = styled.form`
     margin: 10px auto;
     padding: 10px;
     box-sizing: border-box;
-    font-size: 1.1em;
+    font-weight: 400;
+    font-size: 1em;
   }
 
   input,
@@ -31,5 +32,10 @@ export const BookAppointmentStyle = styled.form`
 
   button {
     margin: 30px 10px;
+  }
+
+  @media (max-width: 1000px) {
+    max-width: 75vw;
+    padding: 10px;
   }
 `;

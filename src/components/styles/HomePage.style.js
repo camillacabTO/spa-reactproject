@@ -40,5 +40,13 @@ export const HomeStyle = styled.div`
     div > button {
       margin: 0 30px;
     }
+
+    @media (max-width: 900px) {
+      font-size: 1.15rem;
+      div > button {
+        display: block;
+        margin: 20px auto;
+      }
+    }
   }
 `;

@@ -11,6 +11,11 @@ export const ServiceStyle = styled.div`
   border-radius: 5px;
   flex-direction: ${({ flexDirection }) => flexDirection || 'row'};
 
+  @media (max-width: 900px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
   & > div:first-of-type {
     padding: 25px 0px 0px 50px;
     cursor: pointer;
@@ -24,10 +29,13 @@ export const ServiceStyle = styled.div`
     p {
       margin: 20px 0;
     }
+
+    @media (max-width: 900px) {
+      padding: 20px 10px 0;
+    }
   }
 
   & > div {
     flex: 1;
-    ${'' /* height: 100%; */}
   }
 `;
