@@ -1,9 +1,9 @@
-import { FooterStyle } from './styles/Footer.sytle';
+import { FooterStyle } from './styles/Footer.sytle'
 
 export default function Footer() {
   return (
     <FooterStyle>
-      <p>&copy; 2022 Spadesy. All rights reserved</p>
+      <p>&copy; 2023 Spadesy. All rights reserved</p>
     </FooterStyle>
-  );
+  )
 }
